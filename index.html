@@ -1,91 +1,131 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aneeshfathima S - Data Analyst CV</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f7f7f7;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    .contact, .education, .experience, .skills {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    ul {
-      padding-left: 20px;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aneesh Fathima - Data Analyst Resume</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 30px 40px;
+  }
+  header {
+    border-bottom: 3px solid #4caf50;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  header h1 {
+    color: #4caf50;
+    margin: 0;
+  }
+  header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+    color: #555;
+  }
+  section {
+    margin-bottom: 25px;
+  }
+  h2 {
+    color: #2196f3;
+    border-bottom: 2px solid #2196f3;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  .contact a {
+    color: #2196f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 8px;
+  }
+  .skills span {
+    display: inline-block;
+    background: #4caf50;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px 6px 5px 0;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
+  .project {
+    background: #e3f2fd;
+    border-left: 6px solid #2196f3;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  .project p {
+    margin: 8px 0;
+  }
+</style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>Aneesh Fathima S</h1>
+      <p>Data Analyst</p>
+      <p class="contact">
+        📞 8056168058 | 📧 <a href="mailto:aneeshfathima0786@gmail.com">aneeshfathima0786@gmail.com</a> | 📍 Porur, Chennai-600116 | <a href="https://shorturl.at/RPmcP" target="_blank" rel="noopener noreferrer">Portfolio</a>
+      </p>
+    </header>
 
-  <header>
-    <h1>Aneeshfathima S</h1>
-    <p><strong>Data Analyst</strong></p>
-  </header>
+    <section>
+      <h2>Profile</h2>
+      <p>Detail-oriented Data Analyst with hands-on experience in real-time data processing, predictive modeling, and dashboard development. Skilled in Python, SQL, Power BI, and Excel for cleaning and visualizing data from GPS, Wi-Fi, and video sources. Experienced in building pipelines and deploying models for urban mobility and transport planning. Strong collaborator with government and private teams to drive data-based decisions.</p>
+    </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p><strong>Phone:</strong> 8056168058</p>
-    <p><strong>Email:</strong> <a href="mailto:aneeshfathima0786@gmail.com">aneeshfathima0786@gmail.com</a></p>
-    <p><strong>Location:</strong> Porur, Chennai - 600116</p>
-    <p><strong>Profile Link:</strong> <a href="https://shorturl.at/RPmcP" target="_blank">https://shorturl.at/RPmcP</a></p>
-  </section>
+    <section>
+      <h2>Work Experience</h2>
+      <div class="project">
+        <h3>Bus Signal Priority (BSP) System Project Data Analyst | IIT Madras (2023 - Present)</h3>
+        <p>Coded a Python-based Bus Signal Priority (BSP) algorithm to reduce delays for MTC buses at intersections. Tested logic in VISSIM simulations under Indian traffic conditions, later adapting it for real-time GPS and camera inputs for deployment.</p>
+        <p>Integrated asynchronous GPS and video data streams, used ray casting and virtual boxing for bus direction detection and signal priority triggers. Built lightweight data pipelines in .pkl and .json formats to track bus movements and timestamps with temporal accuracy.</p>
+        <p>Coordinated with hardware teams, vendors, and municipal agencies for smooth deployment, set to launch at three Chennai intersections.</p>
+      </div>
+    </section>
 
-  <section class="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>B.Tech (IT)</strong>, MNM Jain Engineering College – 2016 to 2020</li>
-      <li><strong>HSS</strong>, St. Mary’s Matriculation Higher Secondary School – 2014 to 2016</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>MNM Jain Engineering</strong> - B.Tech (IT), 2016 - 2020</li>
+        <li><strong>St. Mary’s Mat HSS School</strong>, 2014 - 2016</li>
+      </ul>
+    </section>
 
-  <section class="profile">
-    <h2>Profile Summary</h2>
-    <p>Detail-oriented Data Analyst with hands-on experience in real-time data processing, predictive modeling, and dashboard development. Skilled in Python, SQL, Power BI, and Excel for cleaning and visualizing data from GPS, Wi-Fi, and video sources.</p>
-    <p>Experienced in building pipelines and deploying models for urban mobility and transport planning. Strong collaborator with government and private teams to drive data-based decisions.</p>
-  </section>
-
-  <section class="experience">
-    <h2>Work Experience</h2>
-    <h3>Data Analyst – Bus Signal Priority (BSP) Project | IIT Madras</h3>
-    <p><strong>2023 – Present</strong></p>
-    <ul>
-      <li>Developed a Python-based BSP algorithm to reduce MTC bus delays at intersections.</li>
-      <li>Tested logic in VISSIM simulations and adapted it for real-time GPS and video data.</li>
-      <li>Integrated asynchronous data streams from GPS and camera systems.</li>
-      <li>Used ray casting and virtual boxing to detect bus approach direction.</li>
-      <li>Built data pipelines with .pkl and .json formats to track bus movements and signal phases.</li>
-      <li>Matched GPS and video feeds with high temporal accuracy.</li>
-      <li>Coordinated with hardware teams and municipal agencies for deployment.</li>
-      <li>Final algorithm set for deployment at 3 intersections in Chennai.</li>
-    </ul>
-  </section>
-
-  <section class="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><strong>Environment:</strong> Jupyter Notebook, VS Code, Git, Anaconda, Power BI</li>
-      <li><strong>Languages:</strong> Python, SQL</li>
-      <li><strong>Databases:</strong> MySQL, PostgreSQL</li>
-    </ul>
-  </section>
-
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Power BI</span>
+        <span>Excel</span>
+        <span>MySQL</span>
+        <span>PostgreSQL</span>
+        <span>Jupyter Notebook</span>
+        <span>VS Code</span>
+        <span>Git</span>
+        <span>Anaconda</span>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
